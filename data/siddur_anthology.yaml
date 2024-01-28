@@ -1,0 +1,493 @@
+Book: The Siddur Anthology
+Music:
+  - title: Y'varech'cha
+    composer: D. Weinkranz
+    FK: weinkranz_yevarachcha
+    page: 7
+    key: Dm
+    time: 4/4
+    notes: d8.va16^d8fa4.a8|g8bagd4.
+    lyrics: Y'-va-re-ch'-cha Ha-|shem mi-tzi--yon
+  - title: Kol ha-Olam Kulo
+    composer: B. Chait
+    PK: chait_gesher
+    page: 9
+    key: Am
+    time: 2/4
+    notes: va8^eee|ee4.|e16e8.d8.c16|d2
+    lyrics: Kol ha-o-lam|ku-lo|ge-sher tzar m'-|od
+  - title: Esa Enai
+    composer: S. Carlebach
+    FK: carleback_esaenai
+    page: 12
+    key: Dm
+    time: 4/4
+    notes: d8a4.b4a4|d8a4.b4a4
+    lyrics: E-sa ei-nai|el_ he-ha-rim
+  - title: Mi Sheberach
+    composer: Debbie Friedman
+    PK: friedman_misheberach
+    page: 16
+    key: Bb
+    time: 4/4
+    notes: d4d8cdgg4|f8gfdvb4^c8.c16|d4d8cdbb8.
+    lyrics: Mi she--be--rach|a---vo-te-nu m'-|kor ha-bra-cha_
+  - title: L'cha Hashem
+    composer: G. Ephros
+    page: 17
+    FK: Ephros_Lecha
+    key: F
+    time: 4/4
+    notes: c4|ff8.g16a4a8b|^c4.d8c8
+    lyrics: L'-|cha A-do-nai hag-du-|la__
+  - title: Am Yisrael Chai
+    composer: S. Rockoff
+    page: 20
+    key: C
+    time: 2/4
+    notes: c8c4d8|e4g4|c8c4d8|e4g4
+    lyrics: Am Yis-ra-|el chai|Am Yis-ra-|el chai
+  - title: S'u Sh'orim
+    composer: ."traditional" [per Siddur Anthology]
+    PK: trad_seushearim
+    page: 21
+    key: Dm
+    time: 4/4
+    notes: va4|^d4.e8f8.e16f8d|a2a4
+    lyrics: S'-|u sh'-o--rim ro-|she-chem
+  - title: Ki B'simcha
+    composer: S. Carlebach
+    page: 21
+    key: Fm
+    time: 4/4
+    notes: f8ffffgab|a4
+    lyrics: Ki b'-sim-cha ta--tze--|u
+  - title: Malchut'cha
+    composer: R. Sirotkin
+    PK: sirotkin_malchutcha
+    page: 22
+    key: Dm
+    time: 4/4
+    notes: d4ad4.d8|a8agfedc4
+    lyrics: Mal-chut-cha mal-|chut kol o-la-mim__
+  - title: Hashiveinu (after Vzot hatorah)
+    # Note introduction
+    composer: ."Traditional [per Siddur Anthology]"
+    page: 23
+    key: Dm
+    time: 4/4
+    notes: a8a|g2d4g|f4.e8d8def|e4.d8c2
+    lyrics: Ha-shi-|ve-nu Ha-|shem__ Ha-shem e-|le--cha
+  - title: Shomer Yisrael
+    composer: Goldfarb
+    PK: goldfarb_shomeryisrael
+    page: 28
+    key: Dm
+    time: 4/4
+    notes: d4daa|g8ag4d2|f4d8dg4f8e|f4.e8d2
+    lyrics: Sho-mer sho-mer|Yis--ra-el|sh'mor sh'-e-rit Yis-ra-|el__
+  - title: V'hanchilenu
+    composer: S. Carlebach
+    page: 29
+    key: C
+    time: 4/4
+    notes: e8|efefgg4f8|efefgg4f8|e8fefgg4.
+    lyrics: V'-|han---chi-le-nu Ha-|shem_ E-lo-kei-nu b'-|a-ha-va uv'-ra-tson
+  - title: Ki Lishu'atcha
+    composer: S. Carlebach
+    page: 31
+    key: G
+    notes: f2d4vb|^e2c4.c8|f4fdc8d|e1
+    lyrics: Ki li-shu-|at-cha ki-|vi-nu kol ha--|yom
+  - title: Ivdu
+    composer: ."Traditional"
+    page: 29
+    key: Dm
+    time: 2/4
+    notes: f8ddd|dddd|c+def|e4d4
+    lyrics: Iv-du iv-du|iv-du iv-du|et Ha-shem b'-|sim-cha
+  - title: Ani Ma'amin
+    composer: A. Z. Fastag
+    page: 36
+    key: Dm
+    time: 4/4
+    notes: va4^dd8.d16d4|va4^dd8.d16d4|va4^d8fa4g4f|a2.
+    lyrics: A-ni ma-a-min|A-ni ma-a-min|A-ni_ ma'-a--|min
+  - title: Ani Ma'amin
+    composer: M. Parnes
+    PK: parnes_animaamin
+    page: 37
+    key: Cm
+    time: 3/4
+    notes: g2f4|d2e4|(c2.|c4)
+    lyrics: A-ni|ma-a-|min_
+  - title: Ein Adir
+    composer: ."Oriental" (per Synagogue Anthology)
+    page: 39
+    key: F
+    notes: f4f8ga4.g|a4a8gf2
+    lyrics: Ein a--dir_|ka-do--nai
+  - title: Yisrael B'tach Bashem
+    composer: S. Carlebach
+    page: 44
+    key: Dm
+    notes: va8|a^cceea4e8|edcdc2
+    lyrics: Yis-|ra--el Yis-ra-el b'-|tach_ba--shem
+  - title: Tov Lehodot
+    composer: S. Carlebach
+    page: 48
+    time: 2/4
+    key: Em
+    notes: vb8^d|ee4d8|vb4b8^d|ee4d8|vb4.
+    lyrics: Tov l'-|ho-dot la-|shem tov l'-|ho-dot la-|shem
+  - title: Tov Lehodot
+    composer: I. Katz
+    page: 49
+    time: 3/4
+    key: Am
+    notes: a2g+4|a2f4|e2.|e4re|a2g+4|a2f4|e2.|e4re
+    lyrics: Tov l'-|ho--|dot|_ l'-|ho--|dot La-|shem|_ Ul-
+  - title: Pitchu Li
+    composer: Y. Rosenzweig
+    page: 51
+    time: 2/4
+    key: Dm
+    notes: va8^ddd|d2|f4e|cd
+    lyrics: Pit-chu pit-chu|li|shaa-rei|tze-dek
+  # Ma l'cah p. 52 same as ZL but ZL has attribution
+  # Heharim Rak'du p. 52 Carlebach
+  - title: Mah Tovu
+    composer: H. Michaeli, L. Sasson
+    page: 53
+    time: 3/4
+    key: D
+    notes: d4va^d|dva^d|evb^e|gfe|c4.c8c4|cvb^c|d4.c8dc|d2.
+    lyrics: Mah tov-vu|o-ha-le-|cha__|Ya-a-kov|mish-k'-no-|te--cha|Yis--ra--|el
+  - title: Yah Ribon
+    composer: ."Traditional" (per Siddur Anthology)
+    key: Em
+    time: 4/4
+    page: 55
+    notes: e8gb4e8gb4|aeee
+    lyrics: Kah ri-bon o--lam|v'-al-ma-ya
+  - title: Min ha-Metsar
+    composer: B. Chait
+    key: Dm
+    time: 2/4
+    page: 57
+    notes: d8fff|gf4.|d8fga|g2
+    lyrics: min__ ha-|me-tsar|ka--ra-ti|Yah
+  - title: Lo Alecha
+    composer: Jeff Klepper, Danny Friedlander
+    page: 58
+    key: G
+    time: 4/4
+    notes: g4g8g4a8bg|a4g8ee2
+    lyrics: Lo a-le-cha ham-la-|cha lig-mor_
+  - title: Av Harachamim
+    composer: S. Carlebach
+    page: 59
+    key: Dm
+    time: 3/4
+    notes: va4^f4.e8|f2.|va4^e4.d|e2
+    lyrics: Av__|_|ha-ra-cha-|mim
+  # another SC on p60 not doing it now
+  # od yishama p61 listed as "trad" but other sources say SC
+  # od yishama No 2 on p62 by B Chait; learn it!
+  - title: Shalom Aleichem
+    composer: S. Brazil (Schmuel Brazil)
+    page: 63
+    PK: brazil_alechem
+    key: Gm
+    time: 4/4
+    notes: f8g16g g8g g16ggg g8g8|r8ggfbb4
+    lyrics: Sha-lom a-lei-chem mal-a-chei ha-sha-ret|mal-a-che el-yon
+    # is the dot right for the rest? QQQ
+  - title: Shalom Rav
+    composer: Jeff Klepper, Danny Friedlander
+    page: 65
+    key: D
+    time: 4/4
+    notes: d8d|d(a4.a8)aaa|gf4d8d8e4d8
+    lyrics: Sha-lom|rav__ al Yis-ra-|el am-cha__ ta-
+  - title: Hatov
+    composer: Bostoner Rebbe
+    PK: bostoner_hatov
+    page: 67
+    key: Cm
+    time: 4/4
+    notes: c8g4f8g4c4|g2.r4
+    lyrics: Ha-----|tov
+  - title: Ko Amar
+    composer: Y. Calek
+    page: 68
+    key: D
+    time: 4/4
+    notes: va4a^d2|f8ffed2
+    lyrics: Ko a-mar|Ko a-mar Ha-shem
+  # Lecha dodi 71 us marked as traditional but ZL probably has a more definitive answer
+  # p72 is an SC Ki Mitzion
+  - title: L'ma'an Tziyon
+    composer: S. Rockoff
+    page: 75
+    key: C
+    time: 4/4
+    notes: g8|geag2g|afca2r8
+    lyrics: L'-|ma-an Tzi-yon, l'-|ma-an Tzi-yon
+  - title: Y'did Nefesh
+    composer: Sarah & Ehud Zweig
+    PK: YdidNefesh_Zweig
+    page: 82
+    key: Dm
+    time: 3/4
+    notes: d2d4|va^df|g4.f8gf|g2f4
+    lyrics: Y'-did|ne--fesh|av ha-ra-cha-|man_
+  - title: Y'did Nefesh
+    composer: M. Yarmush
+    page: 83
+    key: Am
+    time: 3/4
+    notes: e4|g4.f8ef|g2e4
+    lyrics: Y'-|did_ ne--|fesh_
+  # Maoz Tzur Marcello p 86
+  # Siman tov "traditonal" 88, 89
+  - title: Yismechu ha-Shamayim
+    composer: Rebbe of Pittsburg
+    page: 97
+    key: Fm
+    time: 4/4
+    notes: f8fcfa4g|f2.r4
+    lyrics: Yis-m'-chu ha-sha-ma-|yim
+  - title: Eile Chamda Libi
+    composer: ."Traditional"
+    page: 97
+    key: Dm
+    time: 4/4
+    notes: d4dd8dva^d|f2.
+    lyrics: Ei-le cham-da li--|bi
+  - title: Yasis Alayich
+    composer: Ben-Zion Shenker
+    page: 99
+    key: Fm
+    time: 4/4
+    notes: cagfe@ae@f|g4ggg
+    lyrics: Ya--sis a-la---yich|E-lo-ha-yich
+  - title: Al ha-Nissim
+    composer: Dov Frimer
+    page: 101
+    key: Cm
+    time: 2/4
+    notes: r8^c4vb8|g4e4|f8f4e8|c4d4
+    lyrics: Al ha-|ni-sim|v'-al ha-|pur-kan
+  - title: Ki Va Mo-ed
+    composer: S. Carlebach
+    page: 102
+    key: D
+    time: 2/4
+    notes: a2|a4f8d8|e2|e2
+    lyrics: Ki|va mo--|ed_
+    # continue with ata takum?
+    # Ana Avda p103
+    # L'maan Acahai 106 nice new tune to learn
+  - title: L'ma-an Achai
+    composer: S. Carlebach
+    page: 107
+    key: Gm
+    time: 3/4
+    notes: d4|dc+d|bag|e2.|e4
+    lyrics: L'-|ma-an a-|chai v'-re-|ai_
+  - title: Sim Shalom
+    composer: ."Traditional"
+    page: 108
+    key: Gm
+    time: 4/4
+    notes: g4g4g8abagf8
+    lyrics: Sim sim sim__ sha--lom
+  - title: Sim Shalom
+    composer: S. Paikov
+    page: 109
+    key: Cm
+    time: 4/4
+    notes: c4.g8g4.g8|ba@4g16f+g2
+    lyrics: Sim sha-lom to-|va u-v'-ra-cha
+  - title: Sim Shalom
+    composer: R. Adler
+    page: 110
+    key: Cm
+    time: 3/4
+    notes: g2g4|g2g4|^e4dc|vg2.
+    lyrics: Sim sha-|lom to-|vah uv-ra-|cha
+  - title: Etz Chayim Hi
+    composer: T. Portnoy
+    page: 113
+    key: Em
+    time: 3/4
+    notes: vb4^e2|e4fg|f2d+4|vb2b8b|b4^a4.a8|a4gf|e2f4|g2.
+    lyrics: Etz_|cha--yim|hi_|__ la-|ma--cha-|zi--kim|ba_|_
+  - title: Etz Chayim Hi
+    composer: S. Brazil
+    page: 114
+    key: Em
+    time: 4/4
+    notes: e8e4e8b2|b4a8gfga2|r8^d4c8vb4a4|bagf
+    lyrics: Etz cha-tim hi|la-ma-cha-zi-kim bah|v'-tom-che-ha|m'-u-shar_
+  # p. 114 has the Carlebach Bo'i V'shalom which we already have elsewhere
+  # p. 117 has the BZShenker Eshet Chayil
+  # p 118 has a Sheyibone beit hamikdash by Carlebach
+  - title: Shir Hama'alot B'shuv Hashem
+    composer: P. Minkowsky
+    page: 119
+    key: Cm
+    time: 2/4
+    notes: c4g8g|fg16ag8.b16|f8e16de8f|g4g
+    lyrics: Shir_ ha-|ma-a--lot b'-|shuv___ A-|do-nai
+  - title: Torat Hashem Temimah
+    composer: F. Mendelowitz
+    page: 120
+    key: Dm
+    time: 4/4
+    notes: d4f8fa4g8f|g8f8f2r4
+    lyrics: To-rat Ha-shem_ t'-|mi-ma_ 
+  - title: Hoshia et Amecha
+    composer: ."traditional"
+    key: Dm
+    time: 4.4
+    notes: a8|dd4e8f4e|d2.
+    lyrics: Ho-|shi-a et a-me-|cha
+  - title: Or Zarua Latzadik
+    composer: ."traditional"
+    key: Gm
+    time: 4/4
+    notes: g4ggg|g8bagf2|b8a^cvbbaag|b2.r4
+    lyrics: Or za-ru-a|la--tza--dik|u-l'-yish-re lev_ sim--|cha
+  - title: V'enenu Tir'ena
+    composer: ."Adapted from a Yiddish Folk Song"
+    PK: anon_venenu
+    key: Gm
+    time: 4/4
+    notes: d4|gdgd|g8ab2
+    lyrics: V'-|e-ne-nu tir-|e--na
+  # carlebach p 131 hashmiini
+  # yigdals look interesting p. 137
+  # amen shem nora 138
+  - title: Baruch Hamakom
+    composer: S. Kenigsberg
+    key: G
+    time: 4/4
+    notes: d8b4a8g4d4|vb^cd2
+    lyrics: Ba-ruch ha-Ma-kom|ba-ruch Hu
+  - title: Shehecheyanu
+    composer: Z. Pik
+    key: D
+    time: 4/4
+    notes: va8|^d4d8d4.r8d8|edcddf4r8
+    lyrics: Ba-|ruch a-ta Ha-|shem E-lo-ke--nu
+  # az yashir moshe - sefardi - p 144
+  # el ha-hodaot B.Chait - p 145
+  # chemdat yamim - Carlebach - 146
+  # mizmor l'david p 148 "Sephardic" but that's Bolafi
+  # halleluyah ps. 150 Debbie Friedman p. 150 :-)
+  # han'shama lach - Carlebach - 153
+  # hu yakim lanu - Carlebach 155
+  - title: Mi ha-Ish
+    composer: B. Chait
+    page: 158
+    key: Cm
+    time: 4/4
+    notes: f4a^dc|vge2r8g|f4a^dc|vg2.r4
+    lyrics: Mi__ ha-|ish_ he-|cha-fetz cha--|yim
+  # mizmore shir - Carlebach 158
+  - title: L'dor Vador
+    composer: Sol Zim
+    PK: zim_ledorvador
+    page: 161
+    key: Em
+    time: 4/4
+    notes: r8vb^gf|er8r4r8vb^gf|er8r4r8vb^ef|g4gga8.g16|g8f8f4
+    lyrics: L'-dor va-|dor l-dor va-|dor l'-dor va-|dor na-gid gawd--|le-cha_
+  # uvyom hashabat (the one that isn't the one I know) 162
+  # Mloch Carlebach 164
+  # Friedmann Oseh Shalom 167
+  # Carlebach Ein Keloheinu 168
+  - title: Adon Olam
+    composer: U. Hitman
+    key: Dm
+    time: 2/2
+    page: 170
+    notes: va4^a4.g8|a1|a4fga|ab8a8g4|gffd|g1|g4efg|a2
+    lyrics: A-don o-|lam|_ a-sher ma-|lach___|_ b'-te-rem|kol|_ y'-tzir niv-|ra
+  # Uvau haovdim Carlebach 172
+  - title: L'chu Neran'nah
+    composer: R. Sirotkin
+    key: Dm
+    time: 4/4
+    page: 173
+    notes: f8ed|f4e8d4f8ed|f4e3d4f8ed|g4gf8.e16d8ef2
+    lyrics: L'-chu n'-|ra-n'-na l'-chu n'-|ra-n'-na l'-chu l'-|chu n'-ra-n'-na la-|shem
+  - title: Mizmor L'David (Shalos Seudos)
+    composer: Ben-Zion Shenker
+    page: 174
+    key: Em
+    time: 3/4
+    notes: egb|a^ce|vb2.|b2
+    lyrics: Miz-mor l'-|Da---|vid|_
+  - title: V'shamru
+    composer: M. Rothblum
+    page: 176
+    key: Cm
+    time: 4/4
+    notes: g8|cg4e8f16gfef8g
+    lyrics: V'-|sham-ru v-ne_ Yis-ra-el_
+  - title: Od'cha
+    composer: ."traditional"
+    page: 178
+    key: Dm
+    time: 4/4
+    notes: d4dd2|e8eeee2|e8gfedgec+|d4dd2
+    lyrics: o-d'-cha|ki a-ni-ta-ni|ba--t'--hi_ li_|li-shu-a
+  - title: Eli Ata
+    composer: Chasidic-Chabad
+    page: 178
+    key: Em
+    time: 4/4
+    notes: vb4^eee|d+8efef2|vb4^d+d+4.d+8|vb8^d+fd+e2
+    lyrics: E-li a-ta|v'-o-de--ka|E-lo-hai a-|ro-m-me--ka
+  - title: M'chalkel Chayim B'chesed
+    composer: Max Wohlberg
+    FK: wohlberg_chayim
+    page: 179
+    key: D
+    time: 2/2
+    notes: f8g|a4fge|fd2
+    lyrics: M'-chal-|kel cha-yim b'-|che-sed
+    # more to come when I do Max Wohlberg's book!
+  # 180 - Carlebach - Mimcomcha malkeinu
+  - title: Ha-Mal'ach ha-Go'el Oti
+    composer: A. Rotenberg
+    page: 182
+    key: Am
+    time: 6/8
+    notes: vg8|^ee8.e16edc|d4.d4
+    lyrics: Ha-|mal'-ach ha-go-el o-|ti_
+  - title: Avinu Ha-av ha-Rachaman
+    composer: ."traditional"
+    page: 186
+    key: Dm
+    time: 4/4
+    notes: d4va8^fd4.d8|ffdgf2
+    lyrics: Aa-vi--nu ha-|av ha-ra-cha-man
+  - title: Haracham hu yishlach lanu
+    composer: C. Kirsch
+    page: 188
+    key: Am
+    time: 4/4
+    notes: e8ee|fee4.e8ee|fdd4.e8ee|d4cvba|^e2
+    lyrics: Ha-ra-cha|man__ hu yish-lach|la-nu_ et E-li-|ya-hu ha-na|vi
+  - title: Adir Hu
+    composer: S. Carlebach
+    FK: carlebach_adirhu
+    page: 192
+    key: Gm
+    time: 4/4
+    notes: f8+gaba2|f8+gaba4a4
+    lyrics: A-dir_ hu|yiv--ne ve-to

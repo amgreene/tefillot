@@ -1,0 +1,240 @@
+Book: Siddur in Song
+Music:
+  - title: Adon Olam
+    composer: .(None listed)
+    page: 13
+    key: Dm
+    time: 4/4
+    notes: va8|^dddva^dddva|^d4dd4.
+    lyrics: A-|don o-lam a-don o-lam a-|sher ma-lach
+  - title: Ashreinu
+    composer: .(None listed)
+    page: 16
+    key: Dm
+    time: 4/4
+    notes: r8d4e8f4g|d8d4e8f4e16dc8
+    lyrics: Ash--rei-nu|mah tov chel-key---nu
+  # Hoshia et Amecha p 19 we already have
+  # Ivdu ivdu ivdu p 21 no composer
+  # Ashrei (trad melody, no composer) p 23
+  # Malchutcha p 24 R Sirotkin same as SAnth 22
+  # Avinu haav harachaman p.29
+  # V'ah-er enenu / carlebach / p39  xref x.yaml
+  - title: Barchenu (Sim Shalom)
+    composer: S. Carlebach
+    page: 37
+    key: Dm
+    time: 4/4
+    notes: d8|d4efg|af2a4|ge2g4|fd2r8
+    lyrics: Bar-|che--nu a-|vi-nu ku-|la-nu k'-|e-chad
+  - title: Oseh Shalom
+    composer: S. Carlebach
+    page: 42
+    key: D
+    time: 4/4
+    notes: d8fedff4.|d8fedf4f
+    lyrics: O---se sha-lomg|sh--lom bim-ro-mav
+  - title: Sheyibane beit ha-Miqdash
+    composer: I. Schor
+    page: 43
+    key: Gm
+    time: 4/4
+    notes: d16d|d8f+f+f+f4+f+8.f+16|f+ag8ggg4g4.g16|g8f+gf+16f+g8bag|f+2.
+    lyrics: She-yi-|ba-ne beit ha-miq-dash bim-|he--ra v'-ya-me-nu v'-|ten chel-he-nu b'-to-ra-te--|cha
+    break_bars: [3]
+  # Avinu malkeinu trad p 44
+  - title: Shomer Yisrael
+    composer: Goldfarb
+    FK: goldfarb_shomeryisrael
+    page: 46
+    key: Dm
+    time: 4/4
+    notes: d4daa|g8ag4d2|f4d8dg4f8e|f4.e8d2
+    lyrics: Sho-mer sho-mer|Yis--ra-el|Sh'mor sh'-e-rit Yis-ra-|el__
+  # S'u she'arim p 49 no composer listed (Va4|^d4.e8f8.e16f8d8|a2a4
+  - title: Achat Sha-alti
+    composer: I. Katz
+    page: 50
+    key: Dm
+    time: 3/4
+    notes: a4fd|def|gdc|cde
+    lyrics: A-chat sha-|al--ti|me-et Ha-|shem__
+  - title: Ani ma-amin
+    composer: M. Parnes
+    FK: parnes_animaamin
+    page: 52
+    key: Cm
+    time: 3/4
+    notes: g2f4|d2e4|c2.
+    lyrics: A-ni|ma-a-|min
+  # Achake lo p. 53 no composer listed sounds familiar as contrafact
+  - title: L'cha Dodi
+    composer: none listed
+    page: 58
+    key: Cm
+    time: 4/4
+    notes: c8e|g4ggf8e|f4fc2
+    lyrics: L'--|cha do-do lik--|rat ka-lah
+  # Tov l'hodot p 59 I Katz -- xref santh 49
+  # Tov l'hodot p 60 S C -- xref santh 48
+  # Tzadik katamar p61 "trad" (Lewandowski) xref
+  # Vshamru p 64 no credit xref Moshe Rothblum ZLTNG
+  # Mi ha-ish p 67 B Chait xref
+  # V;enenu p. 70 xref yiddish folksong santh
+  - title: Yism'chu
+    composer: none listed
+    page: 70
+    key: Em
+    time: 2/4
+    notes: e8eed|gggf@|e4e|ee
+    lyrics: Yis-m'-chu_ | yis-m'-chu_| v'-mal-|chut-cha
+  - title: Ma l'cha hayam
+    composer: Attributed to J. Weisser
+    page: 74
+    key: Dm
+    time: 4/4
+    notes: d8f|a4dff8f|va4^dfa8a|bagfe4
+    lyrics: Ma l'-|cha ha-yam (ma l'-|cha ha-yam) ki ta-|nus____
+    nb: This is not how most people sing it any more
+  # Yisrael b'tach bashem SC xref santh
+  - title: Y'varech
+    composer: none credited
+    page: 76
+    key: Fm
+    time: 4/4
+    notes: c8|f8f4f8efed|c2.r8c8|e@f@4e@8e@ce@g|f2.
+    lyrics: Y'-|va-rech et beit Yis-ra--|el y'-|va-rech et beit_ A-ha-|ron
+    nb: This source has the magic note the way I sing it
+  # There's a halelu by B. Chait p 77 but it repeats words
+  - title: Hodu L'H Ki Tov
+    composer: ."Traditional"
+    page: 78
+    key: C
+    time: 3/4
+    notes: c2e4|g2.|g4ea|g2.
+    lyrics: Ho--|du|la--do-|nai
+  # 79 Min ha-Metsar Chait xref santh
+  # 84 Av harachamim "traditional" the new way, but it's the Dunyevski
+  # 87 Z Rovner Bei ana rachest xref
+  # 90 Efros L'cha Hashem xref
+  # 92 Birchat ha-chodesh "Chasidic" same as the Alter Rebbe's Eli Ata xref
+  # 94 Mi She-asa nisim (chodesh bentching) S Rockoff worth learning
+  - title: Mi She-asa Nisim
+    composer: S. Rockoff
+    page: 94
+    key: G
+    time: 4/4
+    notes: g8f16ga8g16ab8g4b8|^cvba16ag8fd4
+    lyrics: Mi__ she-a--sa_ ni-|sim_ la-a-vo-te-nu
+  - title: Hodo al Eretz
+    composer: ."Traditional"
+    page: 96
+    key: F
+    time: 4/4
+    notes: f4c8.c16d4g8.g16|f8edef4
+    lyrics: Ho-do al e-retz v'-sha--ma--yim
+  - title: Na-aritzcha
+    composer: none listed
+    page: 100
+    key: D
+    time: 4/4
+    notes: afgb|a4.g8f4.f8|g4f8ef4e|d2.
+    lyrics: Na---ritz|cha__ v'-|nak---dish--|cha
+  - title: K'vodo
+    composer: none listed
+    page: 101
+    key: D
+    time: 4/4
+    notes: f8|fgafefge|d2va4.
+    lyrics: K'-|vo--do_ ma--le_|o-lam
+  - title: Hu Elohenu
+    composer: none listed
+    page: 103
+    key: Dm
+    time: 4/4
+    notes: r4d4af|g4.a8g2
+    lyrics: Sh'-ma Yis-|ra--el
+  # L'dor vador S. Zim xref
+  # Uvyom ha-Shabbat xref
+  # Lmaan Achai xref SC
+  
+  
+   
+  
+  - title: Mah Tovu
+    composer: anon
+    page: 11
+    key: Dm
+    time: 4/4
+    notes: va4 | ^d8ddd f4d | c+dea8va4
+    lyrics: Mah | to-vu o-ha-le-cha | Ya-a-kov__
+  # page 12, too
+  - title: Y'varech'cha
+    composer: D. Weinkranz
+    FK: weinkranz_yevarachcha
+    page: 7
+    key: Dm
+    time: 4/4
+    notes: d8.va16^d8f a4.a8 | gb(ag)d4.
+    lyrics: Y'-va-re-ch'-cha Ha-|shem mi-tzi--yon
+  - title: Kol ha-Olam Kulo
+    composer: B. Chait
+    FK: chait_gesher
+    page: 9
+    time: 2/4
+    key: Am
+    notes: va8^eee|ee4.|d16e8.d8.c16|d2
+    lyrics: Kol ha-o-lam | ku-lo | ge-sher tsar m'-|od
+  - title: Mi Sheberah
+    composer: Debbie Friedman
+    page: 16
+    FK: friedman_misheberach
+    key: Bb
+    notes: d4(d8c)(dg)g4 | (fg)(fd)vb4^c8.
+    lyrics: Mi she--be--rach | a--vo--te-nu
+  - title: L'cha Hashem
+    composer: B. Chait
+    page: 17
+    time: 4/4
+    key: Gm
+    notes: d8gb | ^d4vb^e8d4d | d4vb^e8d4
+    lyrics: L'-cha Ha-|shem hag'-du-la v'-|ha-g'-vu-ra
+  - title: L'cha Hashem
+    composer: G. Ephros
+    page: 17
+    PK: Ephros_Lecha
+    time: 4/4
+    key: F
+    notes: c4|f4f8.g16a4a8b | (^c4.d8c8)vaaa|
+    lyrics: L'- | cha A-do-nai hag-du-|la__ v'-hag-vu-
+  - title: S'u Sh'orim
+    composer: ."traditional"
+    FK: trad_seushearim
+    page: 21
+    key: Dm
+    time: 4/4
+    notes: va4 | ^d4.e8(f8.e16)f8d | a2a4
+    lyrics: S'-| u sh'-o--rim ro-|she-chem
+  - title: Malchutcha
+    composer: R. Sirotkin
+    FK: sirotkin_malchutcha
+    page: 22
+    time: 4/4
+    key: Dm
+    notes: d4ad4.d8 | a8agf(edc4)
+    lyrics: Mal-chut-cha mal-|chut kol o-la-mim__
+  - title: Hashivenu
+    composer: ."traditional"
+    page: 23
+    time: 4/4
+    key: Dm
+    notes: a8a|g2d4g|(f4.e8d)def |(e4.d8)c2|d4eff+
+    lyrics: Ha-shi-|ve-nu Ha-|shem__ Ha-shem e-|le_cho | v'-na-shu-vah
+  - title: V'ha'er Enenu
+    composer: Shlomo Carlebach
+    page: 24
+    time: 4/4
+    key: Dm
+    notes: d8|(dva)^f8.f16fe4
+    lyrics: V'-|ha-_er ei-nei-nu
+        

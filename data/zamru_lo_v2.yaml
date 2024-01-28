@@ -1,0 +1,331 @@
+Book: Zam'ru Lo II
+Music:
+  - title: Hodu (Ps 136)
+    composer: Arr. Morris Schorr
+    page: 3?
+    # page number ^^^
+    key: E
+    time: 4/4
+    notes: e8 | gg16gb8ba16gf4. | ^c8vb16b`&3a8gfe2
+    lyrics: Ho- | du lA-do-nai ki tov__ | Ki l'-o-lam_ chas-do!
+  - title: Hallelu El B'Kawdsho (Ps 150)
+    composer: ."Israeli Folk Tune"
+    page: 5
+    key: Gm
+    time: 6/8
+    notes: d4d8 b4a8 | g8ggg4.g16g | a8agaag| (f+2.)
+    lyrics: Ha-l'-lu_ | Eil b'-kawd-sho Ha-l'- | lu-hu bir-ki-a u-| zo
+  - title: B'fi Yisharim
+    composer: Jacob Beimel
+    page: 6
+    key: Dm
+    time: 4/4
+    notes: d8|a4a8aa2 | g8fgba4a8a
+    lyrics: B'-|fi yi-sha-rim | tit--ha--lal uv'-div-
+    # keep going...
+  - title: B'fi Yisharim
+    composer: Traditional (arr MN)
+    page: 7
+    key: Dm
+    time: 4/4
+    notes: d16f | a4 a8bagf4 | g8abga4 f8g | a4f8fb4a | g8d`f16ed4.
+    lyrics: B'--| fi y'-sha-rim__ | tit-ha-lal__ uv'-div-|rei tza-di-kim_ | tit-bo-rach__
+  - title: El Adon
+    composer: D. Brodsky
+    page: x
+    key: Em
+    time: 4/4
+    notes: e4b8 ga4g8f|efg.a16e4. e8|e4g8eg4a8a | bagfg4.
+    lyrics: El_ a-don_ al|kol ha-ma-a-sim, ba-|ruch um'-vo-rach_ b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Gershon Ephros (Folk Tune)
+    page: 9
+    key: Dm
+    time: 4/4
+    notes: d4da4.a8 | aagfg4.d8 | g4g8dg4.d8 | ggfdf4.
+    lyrics: El a-don al | kol ha-ma-a-sim ba-|ruch um-vo-rach b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Jacob Gowseiow
+    page: 9
+    key: Fm
+    time: 4/4
+    notes: b4bbb|b8baga4f8f|b4^c8.vb16b4.b8|bbaga4.
+    lyrics: El a-don al|kol ha-ma-a-sim_ ba'-|ruch um-vo-rach b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Chasidic (Notated by A. M. Bernstein)
+    page: 10
+    key: Bb
+    time: 2/4
+    notes: d16babg4 | d16babg4 | g8bag | f+8.e16d8.d16 |g4a8.a16 |b4^c8.c16 | d8.c16vb8a | gba
+    lyrics: El____ | A----don | al kol ha-ma-|sim__ ba-|ruch um-vo-|rach_ b'-|fi kol n'-sha-|mah__
+    break_bars: [4]
+  - title: El Adon
+    composer: Chasidic
+    page: 10
+    key: Em
+    time: 4/4
+    notes: e4vb^eg | ba2.|g8agagfea|g2.e4|evb^eg|ba2r8g|gab^cvbagf|e2.
+    lyrics: El__ a-|don_ | al_ kol_ ha--ma-a-|sim, ba-|ruch_ um-vo-|rach_ b'-|fi___ kol_ n'-sha-|mah.
+    break_bars: [4]
+  - title: El Adon
+    composer: Burton L. Kaplan
+    page: 10
+    key: Fm
+    notes: f4f8ef4f8g | abagagf.f16|f4&3^c8cce4c8.c16|c8vbab^c4.
+    lyrics: El a--don al_ | kol ha-ma-a-sim__ ba-|ruch u-m'-vo-rach_ b'-|fi kol n'-sha-mah
+    break_bars: [4]
+  - title: El Adon
+    composer: S. Luskin
+    page: 11
+    key: Em
+    notes: e4vb8^eg4e8g|bagfe4.e8|e4vb8^eg4e8g|bag^cvb4.
+    lyrics: El a--don al_ | kol ha-ma-a-sim, ba-|ruch um-vo-rach_ b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Yehuda L. Mandel
+    page: 11
+    key: Dm
+    time: 4/4
+    notes: ^d4dc8va4a8|bab^cva4.a8|^dddcva4.a8|bab^cva4.
+    lyrics: El a-don_ al|kol ha-ma-a-sim, ba-|ruch um-vo-rach_ b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: William Sauler
+    page: 11
+    key: Em
+    notes: e4ea.f8 | g8.f16`d8fe4.e8|e4e8de4.d8|eefdg4.
+    lyrics: Eil a-don al | kol ha-ma-a-sim ba-|ruch um-vo-rach b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Haim Schulsinger
+    key: Dm
+    page: 12
+    notes: a4gf4.f8|fgfed2|d4gfg|a8baga4.a8|^c4vb8a^d2|c4vb8ag4d8d|f4ga8bag|f2.
+    lyrics: El__ a-|don____|al_ kol_|ma--a--sim, ba-|ruch___|u-m'-vo-rach_ b'-|fi_ kol n'-sha--|mah
+    break_bars: [4]
+  - title: El Adon
+    composer: Traditional
+    # How to mark quotes?
+    key: Dm
+    page: 12
+    notes: d4dg.g8|d8gfed4.d8|g4a8ab4a8a|ggdef4.
+    lyrics: El a-don al|kol ha-ma-a-sim ba-|ruch um-vo-rach_ b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Traditional (M.N.)
+    key: F
+    page: 12
+    time: 6/8
+    notes: a4a8a4a8|afg16ga4a8|^ccccvbe|ggg16gf4
+    lyrics: El a-don al|kol ha-ma-a-sim ba-|ruch um'-vo-rach_ b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: ."Unknown"
+    key: Dm
+    time: 6/8
+    page: 13
+    notes: f4f8f4f8|fed16da4a8|abagag|faf16fe4
+    lyrics: El a-don al|kol ha-ma-a-sim ba-|ruch um'-vo-rach_ b'-|fi kol n'-sha-mah
+    nb: See Lecha Dodi
+  - title: El Adon
+    composer: Zavel Zilberts
+    page: 13
+    key: Dm
+    notes: d4daa|g8gfga4.d8|d4d8dg4.g8|ggdef4.
+    lyrics: El a-don al | kol ha-ma-a-sim ba-|ruch um-vo-rach b'-|fi kol n'-sha-mah
+  - title: El Adon
+    composer: Zavel Zilberts (continued)
+    page: 13
+    key: Dm
+    notes: d8|d4d8da4a8a|gagag4g8g16g|d4.dg4g4g16g|f8gfgf2
+    lyrics: To-|vim m'-o-rot she-ba-|rah_ E-lo-he-nu y'-tza-|rom b'-da-at b'-vi-|na_ uv-has-kel
+  # p14, v;chulan ps'chim, looks like a nice one to learn
+  - title: Or Chadash
+    composer: Zavel Zilberts
+    page: 16
+    PK: zolberts_orchadash
+    key: Gm
+    notes: d4f+ga|b8agf+g4g8g|^c4vbag|f+8gf+ga4
+    lyrics: Or__ cha-|dash____ al tsi-|yon__ ta-|ir_____
+    nb: Include more?
+  - title: Vahavienu L'Shalom
+    composer: Moshe Nathanson
+    page: 16
+    key: C
+    time: 6/8
+    notes: "&3e16ee | ^c4c8vb4b8 | ^c(va4a4)a16a | ^c4c8vb4b8 | a(g+4g+4)"
+    # Note: two cases above of tying two quarters over the mid-bar
+    lyrics: Va-ha-vi-|ei-nu l'-sha-|lom__ me-ar-|ba kan-fot ha-|a-rets__
+  - title: Mi Chamocha
+    composer: ."Unknown"
+    page: 19
+    key: Fm
+    time: 3/4
+    notes: f2c4 | afg8g|b4ag|f2.
+    lyrics: Mi cha-|mo-cha ba-ei-|lim A-do-nay
+  - title: Avot
+    # more!
+    composer: Moshe Nathanson
+    page: 20
+    key: F
+    time: 4/4
+    notes: c16c|f4f8gabag|a4aaa8b|^c4vb8ab4a8g|agf2
+    lyrics: ...E-lo-|hei Av-ra-am_ E-lo-|hei Yitz-chak ve-lo-|hey___ Ya-a-|kov__
+  # Traditional nusach, p. 21
+  # M'chalkel chaim - none of these are familiar
+  # Kedusha Chasman pp22-25 long form
+  # Other kedusha settings long form
+  - title: Mimkomcha
+    composer: Moshe Nathanson
+    page: 27
+    key: Gm
+    time: 4/4
+    # long form please
+    notes: d8d|abagf+gag|f+ed2
+    lyrics: Mim-kom-|cha__ mal-ke--nu so-|fi--a
+  - title: Ve-eneinu Tir'ena
+    composer: David J. Putterman
+    page: 28
+    key: C
+    time: 4/4
+    notes: e8|e^cvb^cva4a|a8babg+8.f16e4|g+4g+ag8a8|b1
+    # Note grace notes missing
+    lyrics: V'-|ei----ne-nu|tir----e--nah|mal-chu-te---|cha
+  # Yismach Moshe p. 29--35 long form
+  - title: Yismach Moshe
+    composer: Y. Kaminsky
+    page: 31
+    key: C
+    time: 4/4
+    notes: e8|e4eg+8fee|g+4g+b8agr16e|a8aaaad4.|e8fag+16fg+2.
+    lyrics: Yis-|mach Mo-she_ b'-mat-|nat chel-ko__ ki|e-ved ne-e-man_ | ka--ra-ta_lo
+  - title: Yismach Moshe
+    composer: Secunda, Scholom        
+    key: C
+    notes: g+4g+8ba4.a16^c16|vb8ag+fg+fee
+    lyrics: Yis-mach Mo-she b'-mat-|nat_ chel--ko__ ki
+    page: 33
+  # VShamru long form -- in fact, the whole of amida
+  - title: Sim Shalom
+    composer: ."Folk Tune, arr. E. J. Barkan"
+    page: 51
+    key: C
+    time: 4/4
+    notes: e4r4er|e8fdfe2|e8fg+ab^cva^c|vb4.a8bag+f
+    lyrics: Sim Sim | Sim__ sha-lom | sim sha-lom to-vah_ uv-ra-|cha_____
+    # long form, please
+    # and long form for many others here
+  - title: Sim Shalom
+    composer: Notated by Melvin Etra; re-arr. by MN
+    page: 53
+    key: Bbm
+    time: 4/4
+    # debug: true
+    notes: f4ff4. f8 |fgegf2|f4ga@8b16ba8f|b2a@4.
+    lyrics: Sim sha-lom to-|vah_ uv-r-cha | chen va-che-sed v'-ra-cha-|mim_
+  # many others
+  # beginning of hallel
+  - title: B'tzet Yisrael
+    composer: Y. Gorochov (Admon)
+    key: F
+    notes: c8|f4f8ga8.g16f4|g8fede8.d16c4
+    lyrics: B'-|tzet Yis-ra-el__|mi--mitz--ra--yim
+  - title: B'tzet Yisrael
+    composer: J. Millet
+    key: F
+    notes: c8|f4g8.e16f4g16ab8|a2g4
+    lyrics: B'-|tzet Yis-ra-el m--mitz-|ra-yim
+  - title: Yevareh et Beit Yisrael / Hashamayim Shamayim
+    composer: ."folk tune"
+    page: 65
+    key: Gm
+    notes: d8d|gg4g8f+gf+e|d2.d8d|f+8f+4f+8f+df+a|g2.
+    lyrics: Ha-sha-|ma-yim sha-ma-yim la-do-|nai v'-ha-|a-retz na-tan liv-nei a-|dam.
+    nb: Has it the other way on part 2!
+  - title: Hodu L'H Ki Tov
+    composer: Jacob Gowseiow
+    page: 67
+    key: Fm
+    notes: f4^cvb16^cdvb^c4|vb8a16ga8b8^c2
+    lyrics: Ho-du la--do--nai|ki____tov
+    nb: include the rest!
+  # Note: nice melodies for Hallel here!
+  - title: Ein Kamocha
+    composer: Solomon Sulzer
+    page: 75
+    time: 3/4
+    key: D
+    notes: a2a4|af&3f8ef|d4.e8fb|a2.
+    lyrics: Ein ka-|mo-cha va-e-lo-|him A-do--|nai
+  - title: Av Harachamim
+    composer: A. Duneyevsky
+    page: 76
+    key: Dm
+    notes: d4aga8b|a2.d4|ggab|afed|f2e|d
+    lyrics: Av ha-ra--cha-|mim hei-|ti-vah vir-tson-|cha___|et Tzi-|yon
+    nb: Transcribe the rest because we do it wrong!
+  # lots of good alternates here
+  # sulzer ki mitzion p 80
+  # rovner bei ana p. 82
+  # ephros lcha hashem 83
+  - title: L'cha Hashem
+    composer: Ephros, Gershon        
+    key: F
+    FK: Ephros_Lecha
+    notes: c2|f4f4.g8 a4a8b8|^c4.d8c4
+    lyrics: L'-cha A-do-nai hag-du-lah _ _
+    page: 83
+  # nice chassidic lecha hashem 83
+  - title: V'zot ha-Torah
+    composer: A.Z. Idelson
+    page: 89
+    key: G
+    time: 4/4
+    notes: d8|d8.d16vb8.^d16g4..
+    lyrics: V'-|zot ha-to--rah
+  # v'yishlach bracha 90
+  # rosh chodesh bentchen 91
+  - title: Hodo al Eretz
+    composer: S. Sulzer
+    page: 100
+    key: G
+    time: 3/4
+    notes: b4|b2a4|a8gg4g8g|^c2va4|f8.
+    lyrics: Ho-|do al|e--retz v'-sha-|ma--|yim
+  - title: "Mizmor L'David: Ha-vu Lashem"
+    composer: ."Traditional"
+    page: 100
+    key: F
+    time: 2/2
+    notes: a8|a2g4f|a2^c4.va8|a4gfg|a2
+    lyrics: Ha-|vu la-do-|nai_ b'-|nei__ e-|lim
+  # Lewandowski p 101
+  # Etz Chayim - Sulzer p 103
+  # Musaf Kedushah - nice one - p. 105
+  - title: Na'aritz'cha
+    composer: Abraham Kantor
+    page: 107
+    key: F
+    time: 4/4
+    notes: a8.^c16vf8.g16a2|a8.^c16vf8.a16g4.
+    lyrics: Na-a-ri-tz'-cha|v'-nak-di-sh'-cha
+  # nice one by MN same page
+  # Hu Elokeinu by D Brodsky 109 (reminischent of Ein Kelokeinu)
+  - title: Hu Elohenu
+    composer: D. Brodsky
+    page: 109
+    key: Fm
+    time: 4/4
+    notes: f4c8fagf4|a4f8a^cvba4|^c4va8^cvb4b4|
+    lyrics: Hu E-lo-hei--nu|Hu_ a-vi--nu|Hu_ mal-kei-nu
+  - title: Oseh Shalom
+    composer: Notated by Sol Mendelson
+    page: 123
+    key: Em
+    time: 4/4
+    notes: e8|b4aa2|a8baba2|a4g8gg4g|g8agag4.
+    lyrics: O-|seh sha-lom|bim--ro--mav|Hu ya-a-seh sha-|lom____
+  - title: Ein Kelohenu
+    composer: Israel James Donenfeld
+    page: 123
+    key: Dm
+    time: 2/2
+    notes: d2va4^d|fgf2|f2d4f|aba2|a2f4a|^c2vg2|^d4.d8vd4g|fed2
+    lyrics: Ein ke-lo-|he--nu,|Ein ka-do-|ne--nu,|Ein k'-mal-|ke-nu,|ein k'-mo-shi-|e--nu
+    break_bars: [4]
+

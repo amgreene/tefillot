@@ -1,0 +1,25 @@
+Book: Zam'ru Lo Vol III
+Music:
+  - title: Adir Hu
+    composer: Traditional
+    nb: Listed as Hodu No 1 for Pesach
+    page: 43
+    key: C
+    time: 4/4
+    notes: e4gg.g8|e4gg2
+  - title: Hodu L'H Ki Tov
+    composer: Chassidic Melody
+    page: 50
+    key: Dm
+    time: 4/4
+    notes: d8f|a2.d8f|a2.|a4bag8f|a2.
+    lyrics: Ho--|du la-do-|nai|ki____|tov
+  - title: Od'cha
+    composer: M. Purjes
+    page: 54
+    key: Ebm
+    time: 4/4
+    notes: vb8|^e4.e8g4.&3g8gg|b4a8gf4
+    lyrics: Od'-|cha, od'-cha ki a-ni-|ta---ni
+    # put in more notes
+    

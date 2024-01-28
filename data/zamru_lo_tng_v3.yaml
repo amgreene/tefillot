@@ -1,0 +1,15 @@
+Book: Zam'ru Lo The Next Generation Vol 3
+Music:
+  - title: V'karev P'zurenu
+    composer: Israel Fuchs
+    key: Fm
+    time: 4/4
+    notes: a8|abbaabba|a1
+    lyrics: V'-|ka--rev p'-zu--re--|nu
+  - title: B'tset Yisrael
+    composer: Y. Gorochov
+    key: F
+    time: 4/4
+    notes: c8|f4f8ga8.g16f4|g8fede8.d16c4
+    lyrics: B'-|tzet Tis-ra-el++ mi--mitz--ra--yim
+  # Mah lcha hayam Weisser 29

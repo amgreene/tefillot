@@ -1,0 +1,102 @@
+Book: The Carlebach Anthology (?)
+Music:
+    - title: Mimkom'cha Malekeinu (Shabbat Shacharit Kedushah)
+      composer: Carlebach, Shlomo        
+      key: Dm
+      notes_abc: G2GEA2A2|G2AGE4
+      lyrics: Mim--kom-cha mal-ke--nu
+      page: 92
+
+    - title: Kel Adon
+      composer: Carlebach, Shlomo        
+      key: Fm
+      notes_abc: EF2EA2G2|B4F4
+      lyrics: Kel-_-_-_-_ A-don
+      book: YouTube
+      book: https://www.youtube.com/watch?v=bCAfDep1wn4
+
+    - title: Pit'chu Li
+      composer: Carlebach, Shlomo        
+      key: Dm
+      notes_abc: DA,DEFE|G2F2E2
+      lyrics: Pit----chu-_ li--_
+      page: 119
+    
+    - title: Ein Keloheinu
+      composer: Carlebach, Shlomo        
+      key: C
+      notes_abc: EG2GAG1/2F1/2G2
+      lyrics: Ein ke-lo-hei---nu
+      page: 105
+
+    - title: L'ma'an Achai
+      composer: Carlebach, Shlomo        
+      key: Gm
+      notes_abc: D|D2C2D2|B2A2G2|(E6|E4E)
+      lyrics: L'-ma-an a-chai v'-re-ai
+      page: 106
+    
+# Misc Carlebach (frontloading the "do not use" list)
+    
+    - title: Uva'u Ha-Ovdim
+      composer: Carlebach, Shlomo        
+      key: Dm
+      notes_abc: DF2FFDG2
+      lyrics: U-va-u ha-ov-dim
+      page: 40
+
+    - title: Am Yisrael Chai
+      composer: Carlebach, Shlomo        
+      key: D
+      notes_abc: FFFFFFFF|EFECA,4
+      lyrics: Am Yisa-ra-el Am Yis-ra-el Am Yis-ra-el chai
+      page: 44
+
+    - title: Esa Enai
+      composer: Carlebach, Shlomo
+      PK: carleback_esaenai
+      key: Dm
+      notes: d8a4.b4a4|d8a4a8b4a4
+      lyrics: E-sa ei-nai|el_ he-ha-rim
+      page: 57
+
+    - title: Bo'i V'shalom (often used for Kedushah N'Kadesh)
+      composer: Carlebach, Shlomo        
+      key: Am
+      notes_abc: A,|A,EEE|E2E2|ED2E|D4
+      lyrics: Bo-i-_ v'-sha-lom a-te-ret ba-la\nw:N'ka-desh-- et Shim-cha-_ ba--o-lam
+      page: 73
+
+    - title: Niggun #2 (often used for Leshana Haba Biyrushalayim)
+      composer: Carlebach, Shlomo        
+      key: G
+      notes_abc: GG2GFGAF|GG2GFGAF
+      page: 80
+
+    - title: Niggun #3
+      composer: Carlebach, Shlomo        
+      key: Gm
+      notes_abc: GG2FB2A2|c4G4
+      page: 97
+
+    - title: Adir Hu
+      composer: Carlebach, Shlomo        
+      PK: carlebach_adirhu
+      key: Bb
+      notes_abc: ^FGABA4|^FGABA2A2
+      lyrics: A--dir-_ hu yiv---ne vei-to
+      page: 124
+
+    - title: Od Yishama #1
+      composer: Carlebach, Shlomo        
+      key: Dm
+      notes_abc: D2D2A,D2E|F2F3/2F1/2DF3
+      lyrics: Od yi-sha-ma b'-a-re Ye-hu-dah
+      page: 140
+
+    - title: Od Yishama #2
+      composer: Carlebach, Shlomo        
+      key: Am
+      notes_abc: A,EDE|F2D2|(E4|E3)
+      lyrics: Od---_ yi-sha-ma-_
+      page: 140

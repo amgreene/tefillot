@@ -1,0 +1,48 @@
+Book: Zam'ru Lo Vol 1
+Music:
+  - title: Lechu Neranenah
+    composer: Moshe Nathanson
+    page: 18
+    key: F
+    time: 4/4
+    notes: c8|ff16ff&3f8fga4.f8|^cva4f8gag4|f2.
+    lyrics: L'-|chu n'-r-n-nah la-do-nai na-|ri-ah l'-tzur yish-e-|nu
+  - title: L'cha Dodi
+    composer: Mombach
+    page: 29c
+    key: F
+    time: 3/4
+    notes: agf|^c2vg8a|b4fg|a2
+    lyrics: L'cho_ do-|di lik--|rat_ kal-|lah
+
+  - title: Ahavat Olam
+    composer: Eric Mandell (based on traditional motifs)
+    page: 59
+    key: Em
+    time: 3/4
+    notes: e8.e16|b2g4|a2.|a4ae|g2vb8b|^e4fg|ab^c|b2.|b2
+    lyrics: A-ha-|vat o-|lam|beit Yis-ra-|el a-m'-|cha_ a-|hav---|to_
+
+  - title: Magen Avot
+    composer: I. Goldfarb
+    page: 97
+    FK: goldfarb_magenavot
+
+  - title: Aleinu
+    composer: (Sigmund) Sabel
+    page: 112
+    key: G
+    time: 6/8
+    notes: d8|ggg16gg8gg16g|g8efg4
+    lyrics: A-|lei-nu l'-sha-bei-ach la-a-|don_ ha-kol
+    # trasncribe the rest including Va-anachnu
+
+  - title: V'hayah Hashem (Aleinu)
+    composer: (Sigmund) Sabel
+    page: 114
+    key: G
+    time: 4/4
+    notes: d8d|b2a4a|g2r4g|^cvb4.a8ga|b4a2r8d8|g4ggg8a|b4b8b^d4vb|a2.g8a|b2a2|g2.|
+    lyrics: V'-ha-|yah A-do-|nai l'-|me-lech al kol ha-|a-retz; ba-|yom ha-hu yi-h'-|yeh A-do-nai e-|chad u-sh'-|mo e-|chad.
+    break_bars: [5]
+    

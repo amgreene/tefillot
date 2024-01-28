@@ -1,0 +1,35 @@
+Book: Friday Evening Melodies (Goldfarb)
+Music:
+  # Lots of new-to-me melodies
+  - title: Vay'chulu
+    composer: Goldfarb
+    PK: goldfarb_vaychulu
+    page: 63
+    key: Dm
+    time: 4/4
+    notes: d8.d16|a2a4g8a|b2a4.g8|f4.g8e4.f8|d2.
+    lyrics: Va-y'-|chu-lu ha-sha-|ma-yim v'-|ha--a--|retz
+  - title: Magen Avot
+    composer: Goldfarb
+    PK: goldfarb_magenavot
+    page: 66
+    key: Fm
+    time: 3/4
+    notes: c4|f2a4|^c2va4|b2a8g|f2
+    lyrics: Ma-|gen a-|vot bid'-|va---|ro
+  - title: Shalom Aleichem
+    composer: Goldfarb
+    PK: goldfarb_shalom
+    page: 83
+    key: C
+    time: 2/4
+    notes: e8^c16vba8a|g+16abagfe8
+    lyrics: Sha-lom a-lei-chem|mal-a-che ha-sha--ret
+  - title: Kah Ribon Olam
+    composer: Goldfarb
+    page: 91
+    key: Gm
+    time: 6/8
+    notes: d4d8g4a8|b4.b4b8|a4^c8vb4a8|g2.
+    lyrics: Kah ri-bon o-|lam_ v'-|al--ma--|ya
+    

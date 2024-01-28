@@ -1,0 +1,35 @@
+Book: The Best of the Chassidic Song Festivals
+Music:
+  - title: Y'varech'cha Hashem Mitziyon
+    composer: D. Weinkranz
+    PK: weinkranz_yevarachcha
+    page: 7
+    key: Dm
+    time: 4/4
+    notes: d8.va8^d8fa4.a8|gbagd4.
+    lyrics: Y'-va-re-ch'-cha Ha-|shem mi-tzi--yon
+  # sisu et y'lm | A. Nof | 8
+  # Od Yishama (another one!) | S. C. | 9
+  - title: Ki Mitzion
+    composer: N. Shachar
+    page: 17
+    key: Em
+    time: 2/4
+    notes: r8vb^ef|g2|r8vb^ef|g2
+    lyrics: Ki mi-tzi-|yon| te-tze To-|rah
+  - title: Sisu v'Simchu
+    composer: S. Paikov
+    page: 27
+    key: Em
+    time: 2/4
+    notes: vb8^ggf|e2|d+4efe|d+2|d+4f|ff|e8fgf|g2
+    lyrics: Si-su v-sim-|chu|b'-sim-chat To-|rah|u-tnu|ka-vod|la--to--|rah
+  # tzama nafshi | 29 | P Kehati
+  - title: Or Chadash
+    composer: R. Sirotkin
+    page: 38
+    key: Em
+    time: 4/4
+    notes: e4eg2|r8e4e8bagf|e4eg8ee4|d8edvb^e2|
+    lyrics: Or cha-dash|al Tzi-yon ta-ir_|Or cha-dash__|al Tzi-yon ta-ir
+    

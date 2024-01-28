@@ -1,0 +1,429 @@
+Book: Zam'ru Lo The Next Generation Vol 1
+Music:
+  - title: Shalom Aleichem
+    page: 3
+    FK: brazil_alechem
+
+  - title: Shalom Aleichem
+    composer: Goldfarb, Israel        
+    FK: goldfarb_shalom
+    key: Fm
+    notes_abc: C2AGF2F2|
+    lyrics: Sha-lom a-lei-chem
+    page: 4
+  
+  - title: Yedid Nefesh
+    composer: Pursa
+    key: Fm
+    notes_abc: C|(F3/2C1/2)(F3/2C1/2)|F3
+    lyrics: Y'-did_ ne-_fesh
+    page: 10
+    
+  - title: Yedid Nefesh
+    composer: Ehud &amp; Sarah Zweig
+    FK: YdidNefesh_Zweig
+    key: Dm
+    notes_abc: D4D2|A,2D2F2
+    lyrics: Y'-did ne--fesh
+    page: 12
+
+  - title: Mizmor L'David/Havu
+    composer: Carlebach, Shlomo        
+    key: Gm
+    notes_abc: ^F4G2E3|^F3ED4
+    lyrics: Miz-mor l'-Da--vid
+    page: 17
+
+  - title: L'cha Dodi
+    composer: Lewandowski, Louis        
+    key: D
+    notes_abc: F4A2|d4A2|B4d2|A4
+    lyrics: L'cha do-di lik-rat ka-la
+    page: 29
+
+  - title: L'cha Dodi
+    composer: Sulzer, Solomon        
+    key: C
+    notes_abc: G2|E4E2|G4G2|C4D2|E2
+    lyrics: L'-cha do-di lik-rat ka-la
+    page: 34
+
+  - title: L'cha Dodi
+    composer: ."Folk Tune"
+    key: Em
+    notes_abc: B,E2E^DCB,2|B,E2E^DCB,2|E2F2G2F2|EB,GFE4
+    lyrics: L'--cha do--di lik--rat ka--la p'-nei shab-bat n'--ka-b'-la
+    page: 23
+
+  - title: L'cha Dodi
+    composer: Carlebach, Shlomo        
+    key: Dm
+    notes_abc: A,2DB,2D|A,DEFED
+    lyrics: L'--cha do-di l'-cha do--di
+    page: 21
+
+  - title: Ahavat Olam (Shabbat)
+    composer: Mandell, Eric        
+    key: Em
+    notes_abc: E3/2E1/2|B4G2|A6|A2A2E2|G4
+    lyrics: A-ha-vat o-lam beit Yis-ra-el
+    page: 61
+
+  - title: Ki Heim Chayenu
+    composer: ."as heard from Solomon Mendelson"<br>(for Ki Kel Shomreinu)        
+    key: Dm
+    notes_abc: A,DGDG(FF3/2)A,|A,DFDA1/2G1/2F3
+    lyrics: Ki-_ heim cha-ye-nu
+    page: 83 (*)
+
+  - title: V'Sham'ru
+    composer: Carlebach, Shlomo        
+    key: Dm
+    notes_abc: D2|F6D2|G2A2G2|F3GF2|D3
+    lyrics: V'-sham-'-ru-_ v'-nei Yis-ra-el
+    page: 86
+
+  - title: V'Sham'ru
+    composer: Rothblum, Moshe        
+    key: D
+    notes_abc: F2|B,2F6D2|EFEDE2F2
+    lyrics: V'-sham'-ru v'-nei-_ Yis-ra-el-_
+    page: 91
+
+  - title: V'Sham'ru
+    composer: ?(*)        
+    key: F
+    notes_abc: C|C2FGA2FA|GFAGF4
+    lyrics: V'-sham-'-ru-_ v'-nei-_ Yis-ra-el
+    book: (*)
+
+  - title: Vay'chu-lu
+    composer: Goldfarb, Israel
+    FK: goldfarb_vaychulu
+    key: Dm
+    notes_abc: D3/2D1/2|A4A2GA|B4A3G|F3GE3F|D6
+    lyrics: Va-y'-chu-lu ha-sha-ma-yim v'-ha--a--retz
+    page: 103
+
+  - title: Magen Avot
+    composer: Goldfarb, Israel        
+    FK: goldfarb_magenavot
+    key: Cm
+    notes_abc: G,|C2EG2EF3/2E1/2DC
+    lyrics: Ma-gen a-vot bid-va---ro
+    page: 109
+
+  - title: Magen Avot
+    composer: Lewandowski, Louis        
+    key: Cm
+    notes_abc: GG3/2A1/2|B4(3(BA)B|G2
+    lyrics: Ma-gen a-vot bid--va-ro
+    page: 110
+
+  - title: Yigdal
+    composer: Leoni, M.        
+    key: Em
+    notes_abc: B,|E3/2F1/2GAB3E|A3/2B1/2ceB3
+    lyrics: Yig-dal E-lo-him chai v'-yish--ta--bach
+    page: 121
+
+  - title: Yigdal
+    composer: ."Traditional"
+    key: Fm
+    notes_abc: C|A3/2F1/2FFF4A|GF=EDC3
+    lyrics: Yig-dal E-lo-him chai, v'-yish--ta--bach
+    page: 123
+
+  - title: El Adon
+    composer: Lawrence Avery
+    page: 138
+    key: Dm
+    time: 4/4
+    notes: d4da4.g8|fgfed2|g4a8.a16b4^c8.vb16|a8fgag2
+    lyrics: El a-don al|kol ha-ma-a-sim|Ba-ruch um'-vo-rach b'-|fi kol n'-sha-ma
+  - title: El Adone
+    composer: ."As sung by Moshe Bazion"
+    page: 138
+    key: Dm
+    time: 4/4
+    notes: d4fag8f|g8a16ba8gfed4|dva8^d16df4d8f|ggfga2
+    lyrics: El a-don_ al|kol___ ha-ma-a-sim|ba-ruch u-m'-vo-rach b'-|fi kol n'-sha-ma
+  # Luskin and Sauler on p. 143 are already in DB from original ZL
+  # Shirona p 144?
+  - title: El Adon
+    composer: ."Traditional"
+    page: 146
+    key: Am
+    time: 4/4
+    notes: va4.^c8e8a4c8|dd4d8ccvb4|
+    lyrics: El_ a-don_|al kol_ ha-ma-a-sim
+  # Wohlberg 148, Zilberts 149
+  # V'chulam m'kablim Goldstein p 150 looks nice
+  # also 152
+
+  - title: Or Chadash
+    composer: Zilberts
+    FK: zolberts_orchadash
+    page: 154
+    key: Bbm
+    time: 4/4
+    notes: f4a@b^c|d8cvba@b4b|^edcvb|a@8ba@b^c4r8vf8|^d4c8vb^c4vb8a@|bagf|e4e|^cvba@8a@&3gfe|f2.
+    lyrics: Or___|cha----dash al|tzi--yon_|ta----ir v'-|niz---ke chu--|la----nu m'-|hei--ra l'-o---|ro
+    break_bars: [4]
+
+  - title: Motzi Asirim
+    composer: Rovner        
+    key: Gm
+    notes_abc: D|B2BBB2AG|A2AAA2G^F|G4GBAG|^F4
+    lyrics: M-tzi a-si-rim u-fo-deh a-na-vim v'-o-zer da---lim
+    page: 165
+
+  - title: V'eneinu Tir'ena
+    page: 191
+    FK: anon_venenu
+
+  - title: M'chalkel Chayim
+    composer: Wohlberg, Max        
+    PK: wohlberg_chayim
+    key: E
+    notes_abc: GA|B2G2A2F2|GFE4
+    lyrics: M'-chal-kel cha-yim b'-che--sed
+    page: 176
+
+  - title: L'dor va-Dor
+    composer: Finkelstein, Meir        
+    key: Fm
+    notes_abc: CcB|(c4|c)BGA|(F4|F)
+    lyrics: L'-dor va-dor, l'-dor va-dor
+    page: 196
+
+  - title: L'dor va-Dor
+    composer: Zim, Sol        
+    FK: zim_ledorvador
+    key: Em
+    notes_abc: B,GF|Ezz2zB,GF|Ezz2z
+    lyrics: L'-dor va-dor l'-dor va-dor
+    page: 203
+
+
+  - title: Kad'sheinu
+    composer: Binder, A. W.        
+    key: Gm
+    notes_abc: D1/2D1/2|^F2GA2D|G^FEDDD|
+    lyrics: Ka-d'-shei--nu b'-mitz--vo-te-cha v'
+    page: 223
+
+  - title: Kad'sheinu
+    composer: Zim, Paul (Modzitz)        
+    key: Dm
+    notes_abc: A,A,FED3D|DDED^C3
+    lyrics: Ka-d'-shei--nu b'-mitz-vo-te--cha
+    page: 228
+
+# Learn the Kad'sheinu by Secunda I:227
+
+  - title: Ha-tov (from Modim)
+    composer: Bostoner Rebbe        
+    FK: bostoner_hatov
+    key: Cm
+    notes_abc: (CG2FG2C2)|G6z2
+    lyrics: Ha-----tov
+    page: 240
+
+  - title: Sim Shalom
+    composer: ."Folk Tune"
+    key: C
+    notes_abc: E2z2E2z2|EFDFE4|EF^GABcAc|B3ABA^GF
+    lyrics: Sim sim sim--_ sha-lom sim sha-lom to-va-_ uv'-ra-cha
+    page: 254
+
+  - title: Sim Shalom
+    composer: Glatt, arr. S Meisels        
+    key: Em
+    notes_abc: E2DFE3B,|EE1/2E1/2DF1/2F1/2E4
+    lyrics: Sim sha--lom to-va uv'-ra-cha (ba-o-lam)
+    page: 255
+
+  - title: Sim Shalom
+    composer: Nadel, Abe        
+    key: Fm
+    notes_abc: A|F2A|cBA|B2c|B6
+    lyrics: Sim sha-lom to-va uv'-ra--cha
+    page: 256
+
+  - title: Sim Shalom
+    composer: ."Unknown"
+    key: Cm
+    notes_abc: C2C2C3C|CG,CDEDC2
+    lyrics: Sim sha-lom to-va-_ uv'-ra-cha--_
+    page: 263
+
+  - title: Sim Shalom
+    composer: Zim, Paul
+    key: Em
+    notes_abc: E2E2G2zB,|E2EEG2z2|E2E2G2FE|^DEF4z
+    lyrics: Sim sha-lom to-va uv'-ra-cha chein va-che-sed v'-ra-cha-mim
+    page: 266
+
+  - title: Ein Kamocha
+    composer: Sulzer, Solomon        
+    key: E
+    notes_abc: BB|B2G2GFG|E5/2F1/2Gc|B4
+    lyrics: Ein ka-mo-cha ba-e-lo-him A-do--nai
+    page: 268
+    book: 
+
+  - title: Vay'hi Binsoa
+    composer: Sulzer, Solomon        
+    key: G
+    notes_abc: D3/12D1/2|G2z2G3/2G1/2|G2G2GA|B3
+    lyrics: Va-y'-hi bi-n'-so-ah ha-a-ron
+    page: 270
+
+  - title: Bei Ana Rachetz
+    composer: Rovner, Zadel        
+    key: Em
+    notes_abc: G4|GFEA|G3
+    lyrics: Bei, bei a-na ra-chetz
+    page: 272
+
+  - title: Sh'ma
+    composer: Sulzer, Solomon        
+    key: G
+    notes_abc: B4GA|B4
+    lyrics: Sh'ma Yis-ra-el
+    page: 273
+
+  - title: L'cha Hashem
+    composer: Ephros, Gershon        
+    key: G
+    FK: Ephros_Lecha
+    notes_abc: D2|G2G3/2A1/2B2B3/2c1/2|d3ed
+    lyrics: L'-cha A-do-nai hag-du-la
+    page: 274
+  
+  - title: K'vodo Malei Olam
+    composer: ."Traditional"
+    page: 314
+    key: F
+    time: 6/8
+    notes: c8|cffegg|faagbb|aaagag|f4.
+    lyrics: K'-|vo--do ma--lei|ma--lei o--lam|a-yei m'-kom k'-vo|do
+
+  - title: K'vodo Malei Olam
+    composer: ."Traditional"
+    page: 314
+    key: D
+    time: 4/4
+    notes: f8|fgafefge|d2va4.a8|^defdefge|a2.
+    lyrics: K'-|vo--do_ ma--lei_| o-lam m'-|sha-r'-tav sho-a-lim zeh la-|zeh
+
+  - title: Mimkomo
+    composer: Lawrence Avery
+    page: 315
+    key: Cm
+    time: 6/8
+    notes: c4d8edc|g2.|c4d8edc|a2.
+    lyrics: Mim--ko---|mo |hu_ yi---|fen
+
+  - title: Hu Eloheinu
+    composer: Shlomo Carlebach
+    page: 321
+    key: Cm
+    time: 4/4
+    notes: g4g8ef4f8d|eeecd2
+    lyrics: Hu E-lo-hei-nu_|hu a-vi--nu
+
+  - title: Hu Eloheinu
+    composer: ."Folk Tune"
+    page: 321
+    key: Em
+    time: 4/4
+    notes: e8b4g8a8.b16a4|e8a4e8g8.a16g4
+    lyrics: Hu E-lo-hei--nu|Hu_ a-vi--nu
+    nb: Also on p. 328 including Sh'ma, listed as "Traditional"
+
+  - title: V'hu Yashmieinu
+    composer: ."Traditional"
+    page: 330
+    key: Gm
+    time: 2/4
+    notes: d8ga|b2|a8g^c4|vb2|b2
+    lyrics: V'-hu v'-|hu|yash-mi-ei-|nu_
+
+  # Uvyom Hashabbat 331
+
+  - title: Uv'yom Hashabbat
+    composer: Ger
+    page: 335
+    key: Gm
+    time: 2/4
+    notes: b8|^d8d16dd8d16d|d8edc16vg|^c8c16cc8c16c|c8dcvb16
+    lyrics: Uv'-|yom u-v'-yom u-v'-|yom ha-Sha-bat uv'-|yom u-v'-yom u-v'|yom ha-Sha-bat
+
+  - title: Yism'chu
+    composer: Goldfarb
+    page: 343
+    nb: Same melody appears in TNG p. 352 as "Traditional"
+    key: C
+    time: 2/4
+    notes: e8ee4|e16fefg+4|a8g+ag+|ag+f16ed
+    lyrics: Yis-m'-chu|v'-ma-l'-chu-t'-cha|shom-rei shom-rei|shom-rei sha--bat
+
+  - title: Yism'chu
+    composer: Lustig
+    page: 346
+    key: Em
+    time: 2/4
+    notes: e8eed|gggf@|e4e|ee
+    lyrics: Yis-m'-chu_ |yis-m'-chu_|v'-mal-|chut'-cha
+
+  - title: Yism'chu
+    composer: Melitzer Rabbi
+    page: 347
+    key: Em
+    time: 4/4
+    notes: e8eeeeevb^e|g2.|g8gggggeg|b2.
+    lyrics: Yis-m'-chu v'-ma-l'-chu-t'-|cha|Yis-m'-chu v'-ma-l'-chu-t'-|cha|
+
+  - title: Oseh Shalom
+    composer: Nurit HIrsch
+    page: 356
+    key: Dm
+    time: 4/4
+    notes: d8f|a4.a8a4a8a|a1
+    lyrics: O--|seh sha-lom bim-ro-|mav
+    
+  - title: Ein Keloheinu
+    composer: Shlomo Carlebach
+    page: 365
+    key: Dm
+    time: 4/4
+    notes: f8d4f8edc4|c8gfed4d8
+    lyrics: Ein ke-lo-hei--nu|ein_ ka-do-nei-nu
+    
+  - title: Al Ken N'kaveh
+    composer: Melody from T'filat Geshem as sung by the Chassidim of Maramaros; transcribed by Steve Cohen
+    page: 382
+    key: F
+    time: 4/4
+    notes: a8gf8.f16a8gf8.f16|f8f16ff8f16gf8ed4
+    lyrics: Al_ kein n-ka--veh l'-|cha A-do-nai e-lo-hei--nu
+
+  - title: Adon Olam
+    composer: Gershon Kingsley
+    page: 390
+    key: Dm
+    time: 4/4
+    notes: va8|^d4dd.c8|defga4.a8|g4efd|evb@^c+4.
+    lyrics: A-|don o-lam a-|sher_ma--lach b'-|te-rem kol y'-|tzir niv-ra
+    # learn this!
+
+  - title: Adon Olam
+    composer: ."Traditional"
+    page: 396
+    key: F
+    time: 6/8
+    notes: c8a4g8|f4.c4.|f4f8e4d8|e2.
+    lyrics: A-don o-|lam__ | a-sher ma-|lach
+    

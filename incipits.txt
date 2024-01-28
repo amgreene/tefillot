@@ -1,0 +1,175 @@
+# Kabbalat Shabbat
+Y'did Nefesh
+=Yedid Nefesh
+L'chu Neran'nah
+=Lechu Neranenah
+Mizmor L'David/Havu
+L'cha Dodi
+L'cha Dodi (for R"Ch Elul)
+Tov Lehodot
+=Tov Lehodos
+Tzaddik Katamar
+
+# Arvit l'Shabbat
+Ahavat Olam (Shabbat)
+=Ahavat Olam
+Ki Heim Chayenu
+V'Sham'ru
+=V'shamru
+Shalom Rav
+Vay'chulu
+=Vay'chu-lu
+Magen Avot
+Yigdal
+Shalom Aleichem
+
+# Pesukei d'Zimrah
+Mah Tovu
+Mi ha-Ish
+=Mi Ha-Ish
+Hodu (Ps 136)
+Hallelu El B'Kawdsho (Ps 150)
+B'fi Yisharim
+
+# Shacharit l'Shabbat
+El Adon
+=Kel Adon
+=El Adone
+Or Chadash
+Ahavah Rabah
+Avinu Ha-av ha-Rachaman
+V'ha'er Enenu
+Vahavienu L'Shalom
+V'eneinu Tir'ena
+Sh'ma
+Motzi Asirim
+
+# Amidah
+Avot
+M'chalkel Chayim B'chesed
+=M'chalkel Chayim
+Mi Chamocha
+Bo'i V'shalom (often used for Kedushah N'Kadesh)
+Mimkom'cha Malekeinu (Shabbat Shacharit Kedushah)
+=Mimkomcha
+Ve-eneinu Tir'ena
+=V'enenu Tir'ena
+L'dor va-Dor
+=L'dor Vador
+Yismach Moshe
+V'shamru
+Kad'sheinu
+V'hanchilenu
+Av Harachamim
+Hatov
+=Ha-tov (from Modim)
+Al ha-Nissim
+Sim Shalom
+Barchenu (Sim Shalom)
+
+# Hallel
+B'tzet Yisrael
+Ma l'cha hayam
+Yevareh et Beit Yisrael / Hashamayim Shamayim
+=Y'varech
+Yisrael B'tach Bashem
+Hodu L'H Ki Tov
+Min ha-Metsar
+Pit'chu Li
+=Pitchu Li
+Od'cha
+Eli Ata
+
+# Torah Service
+Ein Kamocha
+Vay'hi Binsoa
+Av Ha-Rachamim
+Bei Ana Rachetz
+L'cha Hashem
+=L'cha Hashem Hagdulah
+V'zot ha-Torah
+Hashiveinu (after Vzot hatorah)
+Mi She-asa Nisim
+Hodo al Eretz
+Mizmor L'David: Ha-vu Lashem
+Hashivenu
+Etz Chayim Hi
+
+# Musaf 
+Na'aritz'cha
+=Na-aritzcha
+K'vodo Malei Olam
+=K'vodo
+Mimkomo
+V'hu Yashmieinu
+Hu Eloheinu
+=Hu Elohenu
+Uv'yom ha-Shabbat
+=Uv'yom Hashabbat
+Yism'chu v'Mal'chut'cha
+=Yism'chu
+Ein Keloheinu
+=Ein Kelohenu
+L'ma-an Achai
+=L'ma'an Achai
+Aleinu
+Al Ken N'kaveh
+V'hayah Hashem (Aleinu)
+Adon Olam
+
+# Musaf for Chagim
+V'karev P'zurenu
+
+# Zemirot and Bentsching
+Yah Ribon
+=Kah Ribon Olam
+Mizmor L'David (Shalos Seudos)
+Shir Hama'alot B'shuv Hashem
+Haracham hu yishlach lanu
+
+# Seder
+Baruch Hamakom
+Adir Hu
+
+# Misc
+Achat Sha-alti
+Am Yisrael Chai
+Ani Ma'amin
+=Ani ma-amin
+Ashreinu
+Eile Chamda Libi
+Ein Adir
+Esa Enai
+Ha-Mal'ach ha-Go'el Oti
+Hoshia et Amecha
+Ivdu
+Kaddish Response
+Ki B'simcha
+Ki Lishu'atcha
+Ki Mitzion
+Ki Va Mo-ed
+Ko Amar
+Kol ha-Olam Kulo
+L'ma'an Tziyon
+Lo Alecha
+Malchut'cha
+=Malchutcha
+Mi Sheberach
+=Mi Sheberah
+Niggun
+Od Yishama
+Or Zarua Latzadik
+Oseh Shalom
+S'u Sh'orim
+Shehecheyanu
+Sheyibane beit ha-Miqdash
+Shomer Yisrael
+Sisu v'Simchu
+Torat Hashem Temimah
+Uva'u Ha-Ovdim
+Y'varech'cha Hashem Mitziyon
+=Y'varech'cha
+Yasis Alayich
+Yismechu ha-Shamayim
+
+# Etc.

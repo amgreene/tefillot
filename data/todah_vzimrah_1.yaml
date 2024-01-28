@@ -1,0 +1,45 @@
+Book: Todah V'Zimrah Part 1
+Composer: Louis Lewandowski
+Music:
+  - title: Mah Tovu
+    page: 3
+    key: F
+    time: 3/4
+    notes: ^f2(e8d) | c2r4 | d2(c8vb) | a2a4 | ^c4vba8a | (^c4vb)a
+    lyrics: Mah to--| vu! | Mah to-- | vu! Mah | to-vu o-ha-|le--cha
+  - title: Kaddish Response
+    page: 7
+    key: G
+    time: 4/4
+    notes: (e4f)g2 | g4ggg8.a16 | g4f2r8f8 | aa8aa4a8b | a4g2
+    lyrics: A--men | y'hei shmei ra-ba m'- | vo-rach, l'- | o-lam ul'-ol-mei al-|mai-yah
+  - title: Lechu Neranenah
+    page: 8
+    key: E
+    time: 4/4
+    notes: g4agf | f8edc vb2 | ^b4bb8fga | g4.a8bagf
+    lyrics: L'chu n'ra-n'-na | lA--do--nai, | na-ri-ah__ l'-| tzur yish-ei--nu_
+  # many others!
+  - title: Tov Lehodos
+    page: 47
+    key: G
+    time: 3/4
+    notes: b2b8b | (^d4.vb8gb) | d2f8e | d2d8.d16 | (g4bg) | ^e.d8cvb | a2^c8vb8 | a2
+    lyrics: Tov l'-ho- | dot___ | lA-do-- | nai u-l'- | za__| mer l'-shi-m'- | cha el-- | yon
+    break_bars: [4]
+  - title: Tzaddik Katamar
+    page: 50
+    key: G
+    time: 3/4
+    notes: a2f4g | a^fdvb |a2g2 | f2r4f | b2a4a | ^c+2d4d | eg2f4 | f2e8r8
+    lyrics: Tza-dik ka-|ta--mar_ | yif--|rach, k'-|e-rez bal'-|va-non, bal'-|va--non| yis-geh
+    break_bars: [4]
+  # many others! And also psalm 93!!!
+  - title: L'cha Dodi (for R"Ch Elul)
+    page: 155
+    key: C
+    time: 4/4
+    notes: g2a | g2r4g | agef | g2.g4 | agab | ^c2vg4g | f2e2 | d2.r4
+    lyrics: L'cha do-|di lik- | rat_ ka--|lah p'- | nei__ Shab- | bat_ n'- | kab-- | lah
+    break_bars: [4]
+
