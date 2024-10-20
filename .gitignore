@@ -1,3 +1,18 @@
+# Outputs
+*.pdf
+
+# Emacs
+*~
+\#*\#
+
+# Intermediate files
+Images/*
+missing_incipits.txt
+index.html
+expanded.html
+x.tsv
+data.tsv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
