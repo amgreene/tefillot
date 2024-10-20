@@ -33,13 +33,13 @@ class MusicState:
         state : Note = Note(octave = 4,
                             note_name = 'x',
                             duration = '4')
-        dont_beam_across = {
+        dont_beam_across : list[float]= {
             '4/4': [2/4],
             '6/8': [3/8],
             '3/4': [1/3, 2/3],
             '2/2': [1/2],
             '2/4': [1/4],
-        }.get(piece.get('time', '4/4'), {})
+        }.get(piece.get('time', '4/4'), [])
 
         if 'notes' not in piece:
             piece['notes'] = ''
