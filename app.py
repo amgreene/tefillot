@@ -27,7 +27,11 @@ def abc():
     amg = request.args.get('amg')
     music = MusicState({"notes": amg})
     html = """<script src="static/abcjs_basic_5.9.1-min.js" type="text/javascript"></script>
+<meta charset="utf-8">
+<link href="static/audio.css" media="all" rel="stylesheet" type="text/css" />
 <div id="test">Music goes here</div>
+<div id="testa">Controls go here</div>
+
 <script>
   function make(id, abc) {
       var visualObj = ABCJS.renderAbc(id, abc)[0];

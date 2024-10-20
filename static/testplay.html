@@ -1,0 +1,11 @@
+<script>
+function go() {
+    var input = document.getElementById("input").value;
+    document.getElementById('output').src = "/abc?amg=" + encodeURIComponent(input);
+}
+</script>
+<h1>Testing...</h1>
+<div>Enter the AMG notation here:</div>
+<textarea id="input" cols="60" rows="10">edcd|eee2</textarea>
+<input type="button" id="go" value=">>>" onclick="go()"/>
+<iframe id="output" width="90%" height="400"></iframe>
