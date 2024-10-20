@@ -301,6 +301,9 @@ def parse_music_yaml(yaml_path:Path, parsed_music:dict[list[ParsedPiece]]) -> No
         raise ValueError(f"{yaml_path} is not a yaml file")
     print(f"Parsing YAML file {yaml_path}")
     y = yaml.safe_load(yaml_path.open('r', encoding='utf-8'))
+    if 'Music' not in y:
+        print("No Music in", yaml_path)
+        return
     for piece in y['Music']:
         # print(piece.get('title'))
         music = MusicState(piece)

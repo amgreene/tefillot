@@ -1,7 +1,7 @@
 from flask import Flask, request
 
 from render import format_music
-from parse import parse_music
+from parse import parse_music, MusicState
 
 app = Flask(__name__, static_folder='static')
 
@@ -22,6 +22,20 @@ def post_back():
         f.write(request.data)
     return "ok"
 
+@app.route('/abc', methods=['GET'])
+def abc():
+    amg = request.args.get('amg')
+    music = MusicState({"notes": amg})
+    html = """<script src="static/abcjs_basic_5.9.1-min.js" type="text/javascript"></script>
+<div id="test">Music goes here</div>
+<script>
+  function make(id, abc) {
+      var visualObj = ABCJS.renderAbc(id, abc)[0];
+      var synthControl = new ABCJS.synth.SynthController();
+      synthControl.load('#' + id + "a", null, {displayRestart: true, displayPlay: true, displayProgress: true});
+      synthControl.setTune(visualObj, false);
+  }""" + f"make('test', '{music.abc()}');\n" + "</script>"
+    return html; # music.abc()
 
 if __name__ == "__main__":
   app.run(debug=True, port=8000)
