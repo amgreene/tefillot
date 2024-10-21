@@ -53,11 +53,11 @@ class MusicState:
 
         parsed_notes = self.parse_notes(piece['notes'])
         parsed_lyrics = self.parse_lyrics(piece.get('lyrics'))
-        if len(parsed_lyrics) < len(parsed_notes):
-            parsed_lyrics += [[""]] * (len(parsed_notes) - len(parsed_lyrics))
+        while len(parsed_lyrics) < len(parsed_notes):
+            parsed_lyrics += [[""]]
 
         for measure in zip(parsed_notes, parsed_lyrics):
-            current_beat = 0
+            current_beat = 0.0
             lyric_syllables = [] + measure[1]
 
             for note in measure[0]:
@@ -104,7 +104,7 @@ class MusicState:
                     open_paren = open_paren == '(',
                     close_paren = close_paren == ')',
                     trailing_space = trailing_space,
-                    triplet_prefix = (triplet_prefix[1:] if triplet_prefix else None)
+                    triplet_prefix = (triplet_prefix[1:] if triplet_prefix else ''),
                 ))
 
                 current_beat = next_beat
@@ -134,7 +134,7 @@ class MusicState:
         if was_inside_parens:
             self.music[-1].close_paren = True
 
-    def parse_notes(self, s:str) -> list[str]:
+    def parse_notes(self, s:str) -> list[list[tuple[str, str, str, str, str, str, str]]]:
         measures = re.split(r'\s*\|\s*', s)
         notes = [
             MusicState.NOTE_PARTS_RE.findall(
@@ -145,7 +145,7 @@ class MusicState:
         # print(notes)
         return notes
 
-    def parse_lyrics(self, s):
+    def parse_lyrics(self, s) -> list[list[str]]:
         if s is None:
             return [['']]
         # hyphens END a syllable and imply a trailing space
@@ -296,7 +296,7 @@ class ParsedPiece:
     pk: str
 
 
-def parse_music_yaml(yaml_path:Path, parsed_music:dict[list[ParsedPiece]]) -> None:
+def parse_music_yaml(yaml_path:Path, parsed_music:dict[str, list[ParsedPiece]]) -> None:
     if '.yaml' not in str(yaml_path):
         raise ValueError(f"{yaml_path} is not a yaml file")
     print(f"Parsing YAML file {yaml_path}")
@@ -321,18 +321,18 @@ def parse_music_yaml(yaml_path:Path, parsed_music:dict[list[ParsedPiece]]) -> No
             ))
         # print(music.abc())
 
-def print_counts(parsed_music: dict[list]) -> None:
+def print_counts(parsed_music: dict[str, list]) -> None:
     total_pieces = sum(len(x) for x in parsed_music.values())
     print(f"There are {total_pieces} total versions of {len(parsed_music.keys())} incipits")
 
 
 def build_fks(parsed_music):
     fks = {}
-    for title, pieces in parsed_music.items():
+    for _title, pieces in parsed_music.items():
         for piece in pieces:
             if piece.pk is not None:
                 fks[piece.pk] = []
-    for title, pieces in parsed_music.items():
+    for _title, pieces in parsed_music.items():
         for piece in pieces:
             if piece.fk is not None and piece.fk in fks:
                 fks[piece.fk].append(piece)
