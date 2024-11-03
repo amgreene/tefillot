@@ -4,22 +4,38 @@
       return k + "=" + encodeURIComponent(input)
   }
   
-function go() {
+function go(and_save) {
     document.getElementById('output').src = (
         "/abc?" +
+            val("book") + "&" +
+            val("page") + "&" +
+            val("title") + "&" +
+            val("composer") + "&" +
             val("time") + "&" +
             val("key") + "&" +
             val("notes") + "&" +
-            val("lyrics")
+            val("lyrics") + "&" +
+            "save=" + and_save
     )
 }
 </script>
 <h1>Testing...</h1>
-<div>Enter the AMG notation here:</div>
-Time: <input id="time" cols="60" rows="10" value="4/4" /><br/>
-Key: <input id="key" cols="60" rows="10" value="Dm" /><br/>
-Notes: <input id="notes" cols="60" rows="10" value = "cdec|cdec" /><br/>
-Lyrics: <input id="lyrics" cols="60" rows="10" value="Fre-re Jac-ques|Fre-re Jac-ques" /><br/>
-<input type="button" id="go" value=">>>" onclick="go()"/>
-<hr>
+<div style="width:25%; display:inline-block; vertical-align:top;">
+  <div>Enter the AMG notation here:</div>
+  <table>
+    <tr><th>Book:</th><td> <input id="book" cols="60" rows="10" value="Testing" /></td></tr>
+    <tr><th>Page:</th><td> <input id="page" cols="60" rows="10" value="17" /></td></tr>
+    <tr><th>Title:</th><td> <input id="title" cols="60" rows="10" value="Frere J4/4" /></td></tr>
+    <tr><th>Composer:</th><td> <input id="composer" cols="60" rows="10" value="anon" /></td></tr>
+    <tr><th>Time:</th><td> <input id="time" cols="60" rows="10" value="4/4" /></td></tr>
+    <tr><th>Key:</th><td> <input id="key" cols="60" rows="10" value="Dm" /></td></tr>
+    <tr><th>Notes:</th><td> <input id="notes" cols="60" rows="10" value = "cdec|cdec" /></td></tr>
+    <tr><th>Lyrics:</th><td> <input id="lyrics" cols="60" rows="10" value="Fre-re Jac-ques|Fre-re Jac-ques" /></td></tr>
+</table>
+<input type="button" id="go" value="Preview" onclick="go(0)"/>
+<input type="button" id="save" value="Save" onclick="go(1)"/>
+</div>
+<div style="width:70%; display:inline-block; vertical-align:top;">
 <iframe id="output" width="90%" height="400"></iframe>
+</div>
+</div>
