@@ -16,6 +16,7 @@ Ahavat Olam (Shabbat)
 Ki Heim Chayenu
 V'Sham'ru
 =V'shamru
+=V'Shamru
 Shalom Rav
 Vay'chulu
 =Vay'chu-lu
@@ -58,6 +59,7 @@ L'dor va-Dor
 =L'dor Vador
 Yismach Moshe
 V'shamru
+=V'Shamru
 Kad'sheinu
 V'hanchilenu
 Av Harachamim
@@ -69,6 +71,7 @@ Barchenu (Sim Shalom)
 
 # Hallel
 B'tzet Yisrael
+=B'tset Yisrael
 Ma l'cha hayam
 Yevareh et Beit Yisrael / Hashamayim Shamayim
 =Y'varech
