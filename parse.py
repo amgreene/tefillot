@@ -1,6 +1,7 @@
 from collections import defaultdict
 from dataclasses import dataclass
 from itertools import zip_longest
+import json
 from pathlib import Path
 
 import yaml
@@ -305,13 +306,14 @@ def parse_music_yaml(yaml_path:Path, parsed_music:dict[str, list[ParsedPiece]]) 
         print("No Music in", yaml_path)
         return
     for piece in y['Music']:
-        parse_one_piece(piece, parsed_music)
+        parse_one_piece(piece, parsed_music, y)
 
-def parse_one_piece(piece:dict, parsed_music:dict[str, list[ParsedPiece]]) -> None:
+def parse_one_piece(piece:dict, parsed_music:dict[str, list[ParsedPiece]], y:dict={}) -> None:
         # print(piece.get('title'))
         music = MusicState(piece)
-        book = piece.get('book', y['Book'])
+        book = piece.get('book', y.get('Book', '?'))
         composer = piece.get('composer', y.get('Composer', '?'))
+                
         parsed_music[piece['title']].append(ParsedPiece(
             title = piece['title'].replace("'", "’"),
             composer = composer,
@@ -348,6 +350,11 @@ def parse_music():
     for yaml_path in Path('data').glob('*.yaml'):
         parse_music_yaml(yaml_path, parsed_music)
 
+    with open('saves.json', encoding='utf-8') as f:
+        for line in f:
+            save = json.loads(line)
+            parse_one_piece(save, parsed_music)
+    # build the foreign keys lookup        
     fks = build_fks(parsed_music)
 
     incipits = {}

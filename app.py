@@ -24,6 +24,7 @@ def post_back():
         f.write(request.data)
     return "ok"
 
+
 @app.route('/abc', methods=['GET'])
 def abc():
     arg_dict = {k: request.args.get(k)
@@ -35,6 +36,8 @@ def abc():
         with open("saves.json", "a") as f:
             print(json.dumps(arg_dict), file=f)
         saved_msg = f'<h3>Saved to disk at {arg_dict["timestamp"]}</h3>'
+
+    abc_str = music.abc().replace('\\n', '\n')
     html = """<script src="static/abcjs_basic_5.9.1-min.js" type="text/javascript"></script>
 <meta charset="utf-8">
 <link href="static/audio.css" media="all" rel="stylesheet" type="text/css" />
@@ -47,7 +50,7 @@ def abc():
       var synthControl = new ABCJS.synth.SynthController();
       synthControl.load('#' + id + "a", null, {displayRestart: true, displayPlay: true, displayProgress: true});
       synthControl.setTune(visualObj, false);
-  }""" + f"make('test', '{music.abc()}');\n" + "</script>" + saved_msg
+  }""" + f"make('test', {json.dumps(abc_str)});\n</script>" + saved_msg
     return html; # music.abc()
 
 if __name__ == "__main__":
