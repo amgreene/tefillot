@@ -27,7 +27,7 @@ def post_back():
 @app.route('/abc', methods=['GET'])
 def abc():
     arg_dict = {k: request.args.get(k)
-                for k in ('time', 'key', 'notes', 'lyrics', 'book', 'page', 'title', 'composer')}
+                for k in ('time', 'key', 'notes', 'lyrics', 'book', 'page', 'title', 'composer', 'nb')}
     music = MusicState(arg_dict)
     saved_msg = ''
     if request.args.get('save') == '1':

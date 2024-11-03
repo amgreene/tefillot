@@ -15,6 +15,7 @@ function go(and_save) {
             val("key") + "&" +
             val("notes") + "&" +
             val("lyrics") + "&" +
+            val("nb") + "&" +
             "save=" + and_save
     )
 }
@@ -31,6 +32,7 @@ function go(and_save) {
     <tr><th>Key:</th><td> <input id="key" cols="60" rows="10" value="Dm" /></td></tr>
     <tr><th>Notes:</th><td> <input id="notes" cols="60" rows="10" value = "cdec|cdec" /></td></tr>
     <tr><th>Lyrics:</th><td> <input id="lyrics" cols="60" rows="10" value="Fre-re Jac-ques|Fre-re Jac-ques" /></td></tr>
+    <tr><th>NB:</th><td> <input id="nb" cols="60" rows="10" value="Comment" /></td></tr>
 </table>
 <input type="button" id="go" value="Preview" onclick="go(0)"/>
 <input type="button" id="save" value="Save" onclick="go(1)"/>
