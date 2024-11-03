@@ -21,18 +21,17 @@ function go(and_save) {
 }
 </script>
 <h1>Testing...</h1>
-<div style="width:25%; display:inline-block; vertical-align:top;">
-  <div>Enter the AMG notation here:</div>
+<div style="width:25%; display:inline-block; vertical-align:top; font-family:sans-serif; font-size: larger;">
   <table>
-    <tr><th>Book:</th><td> <input id="book" cols="60" rows="10" value="Testing" /></td></tr>
-    <tr><th>Page:</th><td> <input id="page" cols="60" rows="10" value="17" /></td></tr>
-    <tr><th>Title:</th><td> <input id="title" cols="60" rows="10" value="Frere J4/4" /></td></tr>
-    <tr><th>Composer:</th><td> <input id="composer" cols="60" rows="10" value="anon" /></td></tr>
-    <tr><th>Time:</th><td> <input id="time" cols="60" rows="10" value="4/4" /></td></tr>
-    <tr><th>Key:</th><td> <input id="key" cols="60" rows="10" value="Dm" /></td></tr>
-    <tr><th>Notes:</th><td> <input id="notes" cols="60" rows="10" value = "cdec|cdec" /></td></tr>
-    <tr><th>Lyrics:</th><td> <input id="lyrics" cols="60" rows="10" value="Fre-re Jac-ques|Fre-re Jac-ques" /></td></tr>
-    <tr><th>NB:</th><td> <input id="nb" cols="60" rows="10" value="Comment" /></td></tr>
+    <tr><th style="text-align:right;">Book:</th><td> <input id="book" style="width:200px;"  value="Testing" /></td></tr>
+    <tr><th style="text-align:right;">Page:</th><td> <input id="page" style="width:200px;"  value="17" /></td></tr>
+    <tr><th style="text-align:right;">Title:</th><td> <input id="title" style="width:200px;"  value="Frere J4/4" /></td></tr>
+    <tr><th style="text-align:right;">Composer:</th><td> <input id="composer" style="width:200px;"  value="anon" /></td></tr>
+    <tr><th style="text-align:right;">Time:</th><td> <input id="time" style="width:200px;"  value="4/4" /></td></tr>
+    <tr><th style="text-align:right;">Key:</th><td> <input id="key" style="width:200px;"  value="Dm" /></td></tr>
+    <tr><th style="text-align:right;">Notes:</th><td> <input id="notes" style="width:200px;"  value = "cdec|cdec" /></td></tr>
+    <tr><th style="text-align:right;">Lyrics:</th><td> <input id="lyrics" style="width:200px;"  value="Fre-re Jac-ques|Fre-re Jac-ques" /></td></tr>
+    <tr><th style="text-align:right;">NB:</th><td> <input id="nb" style="width:200px;"  value="Comment" /></td></tr>
 </table>
 <input type="button" id="go" value="Preview" onclick="go(0)"/>
 <input type="button" id="save" value="Save" onclick="go(1)"/>
