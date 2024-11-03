@@ -292,8 +292,8 @@ class ParsedPiece:
     book: str
     page: str
     nb: str
-    fk: str
-    pk: str
+    fk: str | None
+    pk: str | None
 
 
 def parse_music_yaml(yaml_path:Path, parsed_music:dict[str, list[ParsedPiece]]) -> None:
@@ -305,6 +305,9 @@ def parse_music_yaml(yaml_path:Path, parsed_music:dict[str, list[ParsedPiece]]) 
         print("No Music in", yaml_path)
         return
     for piece in y['Music']:
+        parse_one_piece(piece, parsed_music)
+
+def parse_one_piece(piece:dict, parsed_music:dict[str, list[ParsedPiece]]) -> None:
         # print(piece.get('title'))
         music = MusicState(piece)
         book = piece.get('book', y['Book'])

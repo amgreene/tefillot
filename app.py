@@ -24,8 +24,9 @@ def post_back():
 
 @app.route('/abc', methods=['GET'])
 def abc():
-    amg = request.args.get('amg')
-    music = MusicState({"notes": amg})
+    music = MusicState({k: request.args.get(k)
+                        for k in ('time', 'key', 'notes', 'lyrics')})
+    print(music)
     html = """<script src="static/abcjs_basic_5.9.1-min.js" type="text/javascript"></script>
 <meta charset="utf-8">
 <link href="static/audio.css" media="all" rel="stylesheet" type="text/css" />
@@ -46,6 +47,7 @@ if __name__ == "__main__":
 
 '''
 TODO:
+Key, time signaturs
 Better Flask template
 Can underscores extend under the notes?
 Make triplet handling more robust

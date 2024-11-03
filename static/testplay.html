@@ -1,11 +1,25 @@
 <script>
+  function val(k) {
+      var input = document.getElementById(k).value;
+      return k + "=" + encodeURIComponent(input)
+  }
+  
 function go() {
-    var input = document.getElementById("input").value;
-    document.getElementById('output').src = "/abc?amg=" + encodeURIComponent(input);
+    document.getElementById('output').src = (
+        "/abc?" +
+            val("time") + "&" +
+            val("key") + "&" +
+            val("notes") + "&" +
+            val("lyrics")
+    )
 }
 </script>
 <h1>Testing...</h1>
 <div>Enter the AMG notation here:</div>
-<textarea id="input" cols="60" rows="10">edcd|eee2</textarea>
+Time: <input id="time" cols="60" rows="10" value="4/4" /><br/>
+Key: <input id="key" cols="60" rows="10" value="Dm" /><br/>
+Notes: <input id="notes" cols="60" rows="10" value = "cdec|cdec" /><br/>
+Lyrics: <input id="lyrics" cols="60" rows="10" value="Fre-re Jac-ques|Fre-re Jac-ques" /><br/>
 <input type="button" id="go" value=">>>" onclick="go()"/>
+<hr>
 <iframe id="output" width="90%" height="400"></iframe>
